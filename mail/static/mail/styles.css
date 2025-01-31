@@ -1,0 +1,37 @@
+textarea {
+    min-height: 400px;
+}
+
+#email-container {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+
+}
+
+#email-sender {
+    width: 250px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+#email-subject {
+    flex-grow: 1;
+    margin: 3px 10px;
+    text-align: left;
+}
+
+#email-timestamp {
+    width: 200px;
+    margin-right: 3px;
+    text-align: right;
+}
+
+#archive {
+    display: block;
+    float: right;
+}
